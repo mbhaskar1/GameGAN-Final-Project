@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bf84e3e-4efa-41fd-86d7-b9119cb512a8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kF82pgRNVQdvqtN2d8Aetx1Myp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive - University of Florida\Documents\UF School Projects\Deep Learning\GameGAN" />
+      <recent name="D:\OneDrive - University of Florida\Documents\UF School Projects\Deep Learning\GameGAN\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.breakout">
+    <configuration name="breakout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GameGAN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/breakout.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gan_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GameGAN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gan_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.breakout" />
+        <item itemvalue="Python.gan_example" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bf84e3e-4efa-41fd-86d7-b9119cb512a8" name="Default Changelist" comment="" />
+      <created>1605284774549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605284774549</updated>
+      <workItem from="1605284776487" duration="7583000" />
+      <workItem from="1605559201013" duration="34092000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="94" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605288251545">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="94" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605288251545" />
+    <state x="420" y="443" key="FileChooserDialogImpl" timestamp="1605331246976">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="420" y="443" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1605331246976" />
+    <state width="1234" height="402" key="GridCell.Tab.0.bottom" timestamp="1606070681510">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606070681510" />
+    <state width="1234" height="402" key="GridCell.Tab.0.center" timestamp="1606070681510">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="402" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606070681510" />
+    <state width="1234" height="402" key="GridCell.Tab.0.left" timestamp="1606070681510">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="402" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606070681510" />
+    <state width="1234" height="402" key="GridCell.Tab.0.right" timestamp="1606070681510">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="402" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606070681510" />
+    <state width="1262" height="491" key="GridCell.Tab.1.bottom" timestamp="1605891438208">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1262" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605891438208" />
+    <state width="1262" height="491" key="GridCell.Tab.1.center" timestamp="1605891438207">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1262" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605891438207" />
+    <state width="1262" height="491" key="GridCell.Tab.1.left" timestamp="1605891438207">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1262" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605891438207" />
+    <state width="1262" height="491" key="GridCell.Tab.1.right" timestamp="1605891438208">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1262" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605891438208" />
+    <state x="141" y="345" key="SettingsEditor" timestamp="1605637525628">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="141" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605637525628" />
+    <state x="303" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1605646189894">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="303" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605646189894" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GameGAN$breakout.coverage" NAME="breakout Coverage Results" MODIFIED="1606070681505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGAN$gan_example.coverage" NAME="gan_example Coverage Results" MODIFIED="1605305320821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
