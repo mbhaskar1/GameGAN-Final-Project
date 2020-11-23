@@ -19,6 +19,7 @@ INITIAL_EXPLORE_PROBABILITY = 1
 MINIMUM_EXPLORE_PROBABILITY = 0.1
 DELTA_EXPLORE_PROBABILITY = 0.001
 DISCOUNT_FACTOR = 0.99
+LEARNING_RATE = 0.01
 GPU = True
 
 
@@ -61,11 +62,15 @@ explore_probability = INITIAL_EXPLORE_PROBABILITY
 env = gym.make('Pong-v0')
 
 loss_function = nn.MSELoss()
-optimizer = optim.Adam(params=dqn.parameters(), lr=0.001)
+optimizer = optim.Adam(params=dqn.parameters(), lr=LEARNING_RATE)
 
+counter = 0
+episode_counter = 0
+step_counter = 0
 for epoch in range(EPOCHS):
     target_dqn.load_state_dict(dqn.state_dict())
     for episode in range(EPISODES_PER_EPOCH):
+        episode_counter += 1
         observation = env.reset()
         history = np.zeros((STACK_SIZE, IMAGE_SIZE, IMAGE_SIZE))
         history[0, :, :] = preprocess(observation)
@@ -87,6 +92,7 @@ for epoch in range(EPOCHS):
                 action = indices[0] + 1
             # Execute action in emulator and observe reward and image
             observation, reward, done, info = env.step(env.action_space.sample())
+            reward = min(max(reward, -1), 1)  # clip reward to [-1, 1]
             total_reward += reward
             # Update history
             previous_history = np.copy(history)
