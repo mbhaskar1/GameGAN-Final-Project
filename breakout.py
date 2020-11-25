@@ -6,20 +6,24 @@ from dqn_network import DQN
 import torch.nn as nn
 import torch.optim as optim
 import torch
+import os
+
+#os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 
 NUM_ACTIONS = 3  # Pong actions are {1: nothing, 2: up, 3: down}
 IMAGE_SIZE = 84
 EPOCHS = 1000
-EPISODES_PER_EPOCH = 2
+EPISODES_PER_EPOCH = 50
 STACK_SIZE = 4
-REPLAY_MEMORY_CAPACITY = 10000
-REPLAY_MEMORY_MINIMUM = 1000
+REPLAY_MEMORY_CAPACITY = 50000
+REPLAY_MEMORY_MINIMUM = 2000
 BATCH_SIZE = 32
 INITIAL_EXPLORE_PROBABILITY = 1
 MINIMUM_EXPLORE_PROBABILITY = 0.1
 DELTA_EXPLORE_PROBABILITY = 0.001
 DISCOUNT_FACTOR = 0.99
 LEARNING_RATE = 0.01
+TARGET_REPLACE_ITER = 100
 GPU = True
 
 
@@ -68,18 +72,14 @@ counter = 0
 episode_counter = 0
 step_counter = 0
 for epoch in range(EPOCHS):
-    target_dqn.load_state_dict(dqn.state_dict())
     for episode in range(EPISODES_PER_EPOCH):
         episode_counter += 1
         observation = env.reset()
         history = np.zeros((STACK_SIZE, IMAGE_SIZE, IMAGE_SIZE))
         history[0, :, :] = preprocess(observation)
         total_reward = 0
-        step = 0
         while True:
-            step += 1
-            if step % 1 == 0:
-                print(f'Step {step}')
+            step_counter += 1
             # With probability ε select a random action
             if random.random() < explore_probability:
                 action = random.randint(1, 3)
@@ -88,10 +88,10 @@ for epoch in range(EPOCHS):
                 t = torch.tensor(history).unsqueeze(0)
                 if GPU:
                     t = t.to(device)
-                _, indices = dqn.forward(t).max(1)
+                indices = dqn.forward(t).max(1)[1].cpu().data.numpy()
                 action = indices[0] + 1
             # Execute action in emulator and observe reward and image
-            observation, reward, done, info = env.step(env.action_space.sample())
+            observation, reward, done, info = env.step(action)
             reward = min(max(reward, -1), 1)  # clip reward to [-1, 1]
             total_reward += reward
             # Update history
@@ -103,39 +103,48 @@ for epoch in range(EPOCHS):
                 print('Something is not right')
             replay_memory.add_memory((previous_history, action, reward, np.copy(history), done))
             if len(replay_memory) >= REPLAY_MEMORY_MINIMUM:
+                env.render()
+                if counter % TARGET_REPLACE_ITER == 0:
+                    target_dqn.load_state_dict(dqn.state_dict())
+                counter += 1
                 # Sample random mini-batch of transitions
                 sample = replay_memory.sample_batch()
                 # Calculate target Q-values
                 next_histories = torch.tensor(np.stack([s[3] for s in sample]), dtype=torch.double)
                 histories = torch.tensor(np.stack([s[0] for s in sample]), dtype=torch.double)
-                y = torch.tensor([s[2] for s in sample], dtype=torch.double)
+                y = torch.tensor([s[2] for s in sample], dtype=torch.double).view(BATCH_SIZE, 1)
                 if GPU:
                     next_histories = next_histories.to(device)
                     histories = histories.to(device)
                     y = y.to(device)
-                max_future_Qs, _ = torch.max(target_dqn.forward(next_histories), 1)
+                future_Qs = target_dqn.forward(next_histories).detach()
+                max_future_Qs = torch.max(future_Qs, 1)[0].view(BATCH_SIZE, 1)
                 if GPU:
                     max_future_Qs = max_future_Qs.to(device)
-                for i in range(BATCH_SIZE):
-                    if not sample[i][4]:
-                        y[i] += DISCOUNT_FACTOR * max_future_Qs[i]
+                # Using max future Q regardless of whether game is done (game ending should be similar to states during game)
+                y += DISCOUNT_FACTOR * max_future_Qs
                 # Calculate loss and perform gradient descent
-                optimizer.zero_grad()
-                output = dqn.forward(histories)
-                predicted_Qs = torch.empty(BATCH_SIZE, dtype=torch.double)
+                actions = torch.tensor([s[1] - 1 for s in sample], dtype=torch.long).view(BATCH_SIZE, 1)
+                if GPU:
+                    actions = actions.to(device)
+                predicted_Qs = dqn.forward(histories).gather(1, actions)
                 if GPU:
                     predicted_Qs = predicted_Qs.to(device)
-                for i in range(BATCH_SIZE):
-                    predicted_Qs[i] = output[i, sample[i][1] - 1]
                 loss = loss_function(y, predicted_Qs)
+
+                optimizer.zero_grad()
                 loss.backward()
                 optimizer.step()
+                if done:
+                    print(f'Episode: {episode_counter}')
+                    print(f'Step: {step_counter}')
+                    print(f'Total Reward: {total_reward}')
+                    explore_probability = max(MINIMUM_EXPLORE_PROBABILITY,
+                                              explore_probability - DELTA_EXPLORE_PROBABILITY)
+                    print(f'Explore Probability: {explore_probability}')
+                    break
             if done:
-                print(f'Total Reward: {total_reward}')
                 break
-
-        explore_probability = max(MINIMUM_EXPLORE_PROBABILITY, explore_probability - DELTA_EXPLORE_PROBABILITY)
-        print(f'Explore Probability: {explore_probability}')
 
     torch.save(dqn, f'model-{epoch}')
 

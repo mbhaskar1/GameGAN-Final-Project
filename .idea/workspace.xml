@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bf84e3e-4efa-41fd-86d7-b9119cb512a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/bdsmi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/breakout.py" beforeDir="false" afterPath="$PROJECT_DIR$/breakout.py" afterDir="false" />
     </list>
@@ -50,11 +49,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive - University of Florida\Documents\UF School Projects\Deep Learning\GameGAN\DQN Breakout Models" />
       <recent name="D:\OneDrive - University of Florida\Documents\UF School Projects\Deep Learning\GameGAN" />
       <recent name="D:\OneDrive - University of Florida\Documents\UF School Projects\Deep Learning\GameGAN\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cartpole-sanity-test">
+  <component name="RunManager" selected="Python.test">
     <configuration name="breakout" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GameGAN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.breakout" />
         <item itemvalue="Python.cartpole-sanity-test" />
         <item itemvalue="Python.cartpole" />
         <item itemvalue="Python.cartpole_exp" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.breakout" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +198,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605284774549</updated>
       <workItem from="1605284776487" duration="7583000" />
-      <workItem from="1605559201013" duration="51717000" />
+      <workItem from="1605559201013" duration="57970000" />
+      <workItem from="1606191588373" duration="5411000" />
     </task>
     <servers />
   </component>
@@ -214,38 +215,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="420" y="443" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1606085806991" />
-    <state width="1234" height="402" key="GridCell.Tab.0.bottom" timestamp="1606108009289">
+    <state width="1234" height="402" key="GridCell.Tab.0.bottom" timestamp="1606269269392">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606108009289" />
-    <state width="1234" height="402" key="GridCell.Tab.0.center" timestamp="1606108009289">
+    <state width="1234" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606269269392" />
+    <state width="1234" height="402" key="GridCell.Tab.0.center" timestamp="1606269269392">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="402" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606108009289" />
-    <state width="1234" height="402" key="GridCell.Tab.0.left" timestamp="1606108009289">
+    <state width="1234" height="402" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606269269392" />
+    <state width="1234" height="402" key="GridCell.Tab.0.left" timestamp="1606269269392">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="402" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606108009289" />
-    <state width="1234" height="402" key="GridCell.Tab.0.right" timestamp="1606108009289">
+    <state width="1234" height="402" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606269269392" />
+    <state width="1234" height="402" key="GridCell.Tab.0.right" timestamp="1606269269392">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="402" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606108009289" />
-    <state width="1262" height="491" key="GridCell.Tab.1.bottom" timestamp="1605891438208">
+    <state width="1234" height="402" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606269269392" />
+    <state width="1262" height="491" key="GridCell.Tab.1.bottom" timestamp="1606191572748">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1262" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605891438208" />
-    <state width="1262" height="491" key="GridCell.Tab.1.center" timestamp="1605891438207">
+    <state width="1262" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606191572748" />
+    <state width="1262" height="491" key="GridCell.Tab.1.center" timestamp="1606191572748">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1262" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605891438207" />
-    <state width="1262" height="491" key="GridCell.Tab.1.left" timestamp="1605891438207">
+    <state width="1262" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606191572748" />
+    <state width="1262" height="491" key="GridCell.Tab.1.left" timestamp="1606191572748">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1262" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605891438207" />
-    <state width="1262" height="491" key="GridCell.Tab.1.right" timestamp="1605891438208">
+    <state width="1262" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606191572748" />
+    <state width="1262" height="491" key="GridCell.Tab.1.right" timestamp="1606191572748">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1262" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605891438208" />
+    <state width="1262" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606191572748" />
     <state x="141" y="345" key="SettingsEditor" timestamp="1605637525628">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -258,15 +259,19 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1273" y="0" width="1294" height="1407" key="dock-window-2/0.0.2560.1400@0.0.2560.1400" timestamp="1606106986410" />
+    <state x="23" y="18" width="1294" height="1407" key="dock-window-3" timestamp="1606191630951">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="23" y="18" width="1294" height="1407" key="dock-window-3/0.0.2560.1400@0.0.2560.1400" timestamp="1606191630951" />
     <state x="303" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1606103172099">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="303" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1606103172099" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GameGAN$breakout.coverage" NAME="breakout Coverage Results" MODIFIED="1606070681505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GameGAN$cartpole_sanity_test.coverage" NAME="cartpole-sanity-test Coverage Results" MODIFIED="1606108009284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GameGAN$test.coverage" NAME="test Coverage Results" MODIFIED="1606105699737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGAN$breakout.coverage" NAME="breakout Coverage Results" MODIFIED="1606191753027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGAN$cartpole_sanity_test.coverage" NAME="cartpole-sanity-test Coverage Results" MODIFIED="1606144861555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGAN$test.coverage" NAME="test Coverage Results" MODIFIED="1606269269388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GameGAN$gan_example.coverage" NAME="gan_example Coverage Results" MODIFIED="1605305320821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GameGAN$cartpole_exp.coverage" NAME="cartpole_exp Coverage Results" MODIFIED="1606105975774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GameGAN$cartpole.coverage" NAME="cartpole Coverage Results" MODIFIED="1606106867329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
