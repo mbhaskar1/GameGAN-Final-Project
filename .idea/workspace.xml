@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bf84e3e-4efa-41fd-86d7-b9119cb512a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breakout.py" beforeDir="false" afterPath="$PROJECT_DIR$/breakout.py" afterDir="false" />
-    </list>
+    <list default="true" id="f969c56e-b7fa-43d6-9df5-a44cba1082a4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,18 +14,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\OneDrive - University of Florida\Documents\UF School Projects\Deep Learning\GameGAN\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1kF82pgRNVQdvqtN2d8Aetx1Myp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1lWkn0mcMPR4GmUD7yjDr7TlL7Z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,27 +22,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Downloads/cartpole-master/cartpole-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OneDrive - University of Florida\Documents\UF School Projects\Deep Learning\GameGAN\DQN Breakout Models" />
-      <recent name="D:\OneDrive - University of Florida\Documents\UF School Projects\Deep Learning\GameGAN" />
-      <recent name="D:\OneDrive - University of Florida\Documents\UF School Projects\Deep Learning\GameGAN\data" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive - University of Florida\Documents\UF School Projects\Deep Learning\GameGANFinal" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="breakout" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GameGAN" />
+  <component name="RunManager" selected="Python.gan_test">
+    <configuration name="discriminator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GameGANFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -68,7 +50,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/breakout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/discriminator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,8 +59,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cartpole-sanity-test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GameGAN" />
+    <configuration name="game_gan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GameGANFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -90,7 +72,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cartpole-sanity-test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_gan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,8 +81,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cartpole" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GameGAN" />
+    <configuration name="gan_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GameGANFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -112,7 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cartpole.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gan_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,8 +103,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cartpole_exp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GameGAN" />
+    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GameGANFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -134,7 +116,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cartpole_exp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,8 +125,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GameGAN" />
+    <configuration name="generator_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GameGANFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -156,7 +138,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.breakout" />
-        <item itemvalue="Python.cartpole-sanity-test" />
-        <item itemvalue="Python.cartpole" />
-        <item itemvalue="Python.cartpole_exp" />
+        <item itemvalue="Python.gan_test" />
+        <item itemvalue="Python.game_gan" />
+        <item itemvalue="Python.discriminator" />
+        <item itemvalue="Python.generator_test" />
+        <item itemvalue="Python.generator" />
       </list>
     </recent_temporary>
   </component>
@@ -192,14 +174,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6bf84e3e-4efa-41fd-86d7-b9119cb512a8" name="Default Changelist" comment="" />
-      <created>1605284774549</created>
+      <changelist id="f969c56e-b7fa-43d6-9df5-a44cba1082a4" name="Default Changelist" comment="" />
+      <created>1607720397575</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605284774549</updated>
-      <workItem from="1605284776487" duration="7583000" />
-      <workItem from="1605559201013" duration="57970000" />
-      <workItem from="1606191588373" duration="5411000" />
+      <updated>1607720397575</updated>
+      <workItem from="1607720401399" duration="7022000" />
+      <workItem from="1608235080184" duration="4000" />
     </task>
     <servers />
   </component>
@@ -207,73 +188,44 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="94" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605288251545">
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607720430193">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="94" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605288251545" />
-    <state x="420" y="443" key="FileChooserDialogImpl" timestamp="1606085806991">
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1607720430193" />
+    <state x="1022" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607720601673">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="420" y="443" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1606085806991" />
-    <state width="1234" height="402" key="GridCell.Tab.0.bottom" timestamp="1606269269392">
+    <state x="1022" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1607720601673" />
+    <state width="2517" height="348" key="GridCell.Tab.0.bottom" timestamp="1607737156782">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606269269392" />
-    <state width="1234" height="402" key="GridCell.Tab.0.center" timestamp="1606269269392">
+    <state width="2517" height="348" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1607737156782" />
+    <state width="2517" height="348" key="GridCell.Tab.0.center" timestamp="1607737156782">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="402" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606269269392" />
-    <state width="1234" height="402" key="GridCell.Tab.0.left" timestamp="1606269269392">
+    <state width="2517" height="348" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1607737156782" />
+    <state width="2517" height="348" key="GridCell.Tab.0.left" timestamp="1607737156782">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="402" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606269269392" />
-    <state width="1234" height="402" key="GridCell.Tab.0.right" timestamp="1606269269392">
+    <state width="2517" height="348" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1607737156782" />
+    <state width="2517" height="348" key="GridCell.Tab.0.right" timestamp="1607737156782">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="402" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606269269392" />
-    <state width="1262" height="491" key="GridCell.Tab.1.bottom" timestamp="1606191572748">
+    <state width="2517" height="348" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1607737156782" />
+    <state x="1616" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1608235082092">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1262" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606191572748" />
-    <state width="1262" height="491" key="GridCell.Tab.1.center" timestamp="1606191572748">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1262" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606191572748" />
-    <state width="1262" height="491" key="GridCell.Tab.1.left" timestamp="1606191572748">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1262" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606191572748" />
-    <state width="1262" height="491" key="GridCell.Tab.1.right" timestamp="1606191572748">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1262" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606191572748" />
-    <state x="141" y="345" key="SettingsEditor" timestamp="1605637525628">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="141" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605637525628" />
-    <state x="1273" y="0" width="1294" height="1407" key="dock-window-1" timestamp="1606106130210">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1273" y="0" width="1294" height="1407" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1606106130210" />
-    <state x="1273" y="0" width="1294" height="1407" key="dock-window-2" timestamp="1606106986410">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1273" y="0" width="1294" height="1407" key="dock-window-2/0.0.2560.1400@0.0.2560.1400" timestamp="1606106986410" />
-    <state x="23" y="18" width="1294" height="1407" key="dock-window-3" timestamp="1606191630951">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="23" y="18" width="1294" height="1407" key="dock-window-3/0.0.2560.1400@0.0.2560.1400" timestamp="1606191630951" />
-    <state x="303" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1606103172099">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="303" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1606103172099" />
+    <state x="1616" y="523" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1608235082092" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GameGAN$breakout.coverage" NAME="breakout Coverage Results" MODIFIED="1606191753027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GameGAN$cartpole_sanity_test.coverage" NAME="cartpole-sanity-test Coverage Results" MODIFIED="1606144861555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GameGAN$test.coverage" NAME="test Coverage Results" MODIFIED="1606269269388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GameGAN$gan_example.coverage" NAME="gan_example Coverage Results" MODIFIED="1605305320821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GameGAN$cartpole_exp.coverage" NAME="cartpole_exp Coverage Results" MODIFIED="1606105975774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GameGAN$cartpole.coverage" NAME="cartpole Coverage Results" MODIFIED="1606106867329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGANFinal$dqn_test.coverage" NAME="dqn_test Coverage Results" MODIFIED="1607736782593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGANFinal$data_generation.coverage" NAME="data_generation Coverage Results" MODIFIED="1607736841143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGANFinal$dqn_training.coverage" NAME="dqn_training Coverage Results" MODIFIED="1607736734264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGANFinal$generator.coverage" NAME="generator Coverage Results" MODIFIED="1607736915287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGANFinal$gan_test.coverage" NAME="gan_test Coverage Results" MODIFIED="1607737156774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGANFinal$generator_test.coverage" NAME="generator_test Coverage Results" MODIFIED="1607736966918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGANFinal$discriminator.coverage" NAME="discriminator Coverage Results" MODIFIED="1607737038837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGANFinal$cartpole_sanity_test.coverage" NAME="cartpole-sanity-test Coverage Results" MODIFIED="1607720724895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameGANFinal$game_gan.coverage" NAME="game_gan Coverage Results" MODIFIED="1607737117177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
